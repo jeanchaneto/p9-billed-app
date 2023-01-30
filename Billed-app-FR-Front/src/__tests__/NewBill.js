@@ -130,7 +130,7 @@ describe("Given I am connected as an employee", () => {
             }))
             fireEvent.change(file, {
                 target: {
-                    files: [new File(['(⌐□_□)'], 'chucknorris.png', {type: 'image/png'})],
+                    files: [new File(['test1'], 'test2.png', {type: 'image/png'})],
                 },
             })
 
