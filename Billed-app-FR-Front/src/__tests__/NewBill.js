@@ -174,7 +174,7 @@ describe("Given I am connected as an employee", () => {
             }))
             fireEvent.change(file, {
                 target: {
-                    files: [new File(['(⌐□_□)'], 'chucknorris.txt', {type: 'text/txt'})],
+                    files: [new File(['test1'], 'test2.txt', {type: 'text/txt'})],
                 },
             })
 
